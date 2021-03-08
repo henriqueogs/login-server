@@ -3,6 +3,9 @@
 /** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
 
+const providers = [
+  '@adonisjs/cors/providers/CorsProvider'
+]
 module.exports = {
 
   /*
