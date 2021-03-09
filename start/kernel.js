@@ -1,7 +1,7 @@
 'use strict'
 
 /** @type {import('@adonisjs/framework/src/Server')} */
-const Server = use('Adonis/Middleware/Cors')
+const Server = use('Server')
 
 /*
 |--------------------------------------------------------------------------
